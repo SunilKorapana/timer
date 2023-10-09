@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="timer-display">00:00:00</div>
+    <div id="container">
+        <label for="hours">Hrs:</label>
+        <input type="number" placeholder="00" id="hours">
+
+        <label for="minutes">Mins:</label>
+        <input type="number" placeholder="00" id="minutes">
+
+        <label for="seconds">Secs:</label>
+        <input type="number" placeholder="00" id="seconds">
+    </div>
+
+    <div id="buttons">
+        <span class="material-symbols-outlined" id="start-btn" title="click to start">
+            play_circle
+        </span>
+        <span class="material-symbols-outlined" id="reset-btn" title="click to reset" >
+            replay
+        </span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

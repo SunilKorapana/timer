@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    min-width: 360px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#timer-display{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 70px;
+    color: orangered;
+}
+
+input{
+    padding: 3px;
+    width: 50px;
+    margin-inline: 2px;
+    border-radius: 6px;
+    font-size: 20px;
+    
+}
+
+#container{
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#buttons{
+    margin-left: 105px;
+    cursor: pointer;
+   
+}
+
+.material-symbols-outlined {
+    font-size: 40px; 
+    margin: 0 10px; 
+    transition: color 0.3s ease;
+}
+
+.material-symbols-outlined:hover {
+    color: #a7c957;
+}
+
+#reset-btn:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+
+#text-display{
+    margin-left: 70px;
+}
+
+
+
+
+
